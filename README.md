@@ -28,3 +28,14 @@ canvasを使用したケースと、div要素で使用したケースの2通り�
  * canvaslightsout.js
 
 * divを使用したケースに比べて、画面をスクロールした場合にクリックしたブロックの位置計算が困難。おそらく、自分の力量不足だが、divに比べて、作りにくいと感じた。
+
+##Cordova を用いてハイブリッドアプリを作成したケース(Javascriptで、div要素を使用)
+
+* lightsout_cordovaフォルダ
+ * ソースは、LightOutDivを元に、Cordova用に変更
+ * cordova createで作成された、index.html、index.cssに若干の修正を行う
+ * index.html
+ * js/divlightsout.js
+
+* 画面サイズの合わせ込みがNexus5の現物合わせになってしまった。
+
